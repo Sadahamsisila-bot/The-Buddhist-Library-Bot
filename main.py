@@ -118,7 +118,7 @@ def query_handler(call):
         bot.forward_message(call.message.chat.id, -1001582189590, 8)
         bot.forward_message(call.message.chat.id, -1001582189590, 9)
 
-        bot.send_message(call.message.chat.id,"ඇතුලත් කර ඇති අභිධර්ම පොත් අවසානයි",reply_markup=markup)
+        bot.send_message(call.message.chat.id,"තවමත් ඉතුරු පොත් ඇතුලත් කර නැත",reply_markup=markup)
 
         bot.edit_message_reply_markup(call.message.chat.id, call.message.message_id)
 
