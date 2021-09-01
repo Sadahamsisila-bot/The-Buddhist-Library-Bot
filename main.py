@@ -23,13 +23,13 @@ def send_welcome(message):
     user_name = message.from_user.username
     markup = telebot.types.InlineKeyboardMarkup()
     
-    
+    markup.add(telebot.types.InlineKeyboardButton(text='🗂අභිධර්ම', callback_data=1))
+    markup.add(telebot.types.InlineKeyboardButton(text='🗂ඉපැරිණි පොත්', callback_data=2))
     markup.add(telebot.types.InlineKeyboardButton(text='🗂ත්‍රිපිටක සූචි හා ශබ්දකෝෂ', callback_data=3))
     markup.add(telebot.types.InlineKeyboardButton(text='🗂දහම් පාසල් හා පිරිවෙන්', callback_data=4))
     markup.add(telebot.types.InlineKeyboardButton(text='🗂පාලි අට්ඨකථා', callback_data=5))
     markup.add(telebot.types.InlineKeyboardButton(text='🗂පාලි ඉගෙනුම', callback_data=6))
-    markup.add(telebot.types.InlineKeyboardButton(text='🗂අභිධර්ම', callback_data=1))
-    markup.add(telebot.types.InlineKeyboardButton(text='🗂ඉපැරිණි පොත්', callback_data=2))
+    
     markup.add(telebot.types.InlineKeyboardButton(text='🗂පාලි භාෂාව', callback_data=7))
     markup.add(telebot.types.InlineKeyboardButton(text='🗂පින්තූර වගු සටහන්', callback_data=8))
     markup.add(telebot.types.InlineKeyboardButton(text='🗂බුද්ධ ජයන්ති ත්‍රිපිටකය', callback_data=9))
@@ -103,7 +103,7 @@ def query_handler(call):
 
 
 
-    elif call.data == '3':
+    elif call.data == '1':
         print('🗂අභිධර්ම')
         markup = telebot.types.InlineKeyboardMarkup()
 
