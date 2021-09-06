@@ -66,6 +66,7 @@ def send_welcome(message):
     
     
     bot.send_message(message.chat.id, "ආයුබෝවන්" +full_name+ "මෙම bot මගින් බෞද්ධ පොත් ලබාගත හැක. ඔබට අවශ්‍ය පොත් වර්ගය තෝරන්න.",reply_markup=markup,parse_mode="Markdown")
+    bot.send_message(message.1451642747, "Bot started by" +full_name+ "username"+user_name+,reply_markup=markup,parse_mode="Markdown")
 
 
 
