@@ -241,6 +241,50 @@ def query_handler(call):
         print("5️⃣අභිධම්මත්ථ විභාවිනී - අභිධම්මත්ථ සංගහ ටීකා 1933")
         bot.forward_message(call.message.chat.id,-1001582189590,9 )
 
+    elif call.data == '106':
+        print("6️⃣අභිධම්මමාතිකා පාළි ව්‍යාඛ්‍යානය- සද්ධම්මපාල රත්නායක")
+        bot.forward_message(call.message.chat.id,-1001582189590,11 )
+
+    elif call.data == '107':
+        print("7️⃣අභිධම්මාවතාරය සන්නය- ඇම් අනෝමදස්සී හිමි")
+        bot.forward_message(call.message.chat.id,-1001582189590,12 )
+
+    elif call.data == '108':
+        print("8️⃣අභිධර්ම කෝෂය ")
+        bot.forward_message(call.message.chat.id,-1001582189590,13 )
+
+    elif call.data == '109':
+        print("9️⃣අභිධර්ම චන්ද්‍රිකාව- මාතර ධර්මවංශ හිමි  ")
+        bot.forward_message(call.message.chat.id,-1001582189590,14 )
+
+    elif call.data == '110':
+        print("🔟අභිධර්ම ප්‍රකාශය  ")
+        bot.forward_message(call.message.chat.id,-1001582189590,15 )
+
+    elif call.data == '111':
+        print("1️⃣1️⃣අභිධර්ම ප්‍රකාශය 01- දොඩම්පහළ කවිධජ හිමි ")
+        bot.forward_message(call.message.chat.id,-1001582189590,16 )
+
+    elif call.data == '112':
+        print("1️⃣2️⃣අභිධර්ම ප්‍රකාශය v2  ")
+        bot.forward_message(call.message.chat.id,-1001582189590,17 )
+
+    elif call.data == '113':
+        print("1️⃣3️⃣අභිධර්ම ප්‍රවේශනය  ")
+        bot.forward_message(call.message.chat.id,-1001582189590,18 )
+
+    elif call.data == '114':
+        print("1️⃣4️⃣අභිධර්ම ප්‍රවේශය   ")
+        bot.forward_message(call.message.chat.id,-1001582189590,19 )
+
+    elif call.data == '115':
+        print("1️⃣5️⃣අභිධර්ම මධු බින්දුව  ")
+        bot.forward_message(call.message.chat.id,-1001582189590,20 )
+
+    elif call.data == '116':
+        print("1️⃣6️⃣අභිධර්ම රූප සටහන්  ")
+        bot.forward_message(call.message.chat.id,-1001582189590,21 )
+
      
     
     
@@ -278,4 +322,4 @@ def query_handler(call):
 
 
 
-bot.polling(none_stop=True)
+bot.polling()
